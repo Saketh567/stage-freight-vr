@@ -1,9 +1,11 @@
 using UnityEngine;
 
 public class SecondTriggerZone : MonoBehaviour
+
 {
     public GameObject targetObject;
     public AudioSource audioSource;
+    public PresentationController presentationController;
 
     private bool hasTriggered = false;
 
@@ -26,6 +28,10 @@ public class SecondTriggerZone : MonoBehaviour
             {
                 audioSource.Play();
             }
+            if (presentationController != null)
+            {
+                presentationController.StartPresentation();
+            }           
         }
     }
 }
