@@ -37,11 +37,14 @@ public class DoorOpenTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player entered door trigger");
-
             hasTriggered = true;
             shouldOpen = true;
 
-            StartCoroutine(HandleDoorSequence(other.transform));
+            // Get the XR Origin root via CharacterController
+            CharacterController cc = other.GetComponentInParent<CharacterController>();
+            Transform playerRoot = cc != null ? cc.transform : other.transform;
+
+            StartCoroutine(HandleDoorSequence(playerRoot, cc));
         }
     }
 
@@ -68,29 +71,25 @@ public class DoorOpenTrigger : MonoBehaviour
         }
     }
 
-    private IEnumerator HandleDoorSequence(Transform playerTransform)
+    private IEnumerator HandleDoorSequence(Transform playerRoot, CharacterController cc)
     {
         if (crowdAudioSource != null)
-        {
             crowdAudioSource.Play();
-        }
 
         yield return new WaitForSeconds(crowdPlayDuration);
 
         if (crowdAudioSource != null && crowdAudioSource.isPlaying)
-        {
             crowdAudioSource.Stop();
-        }
 
         float remainingDelay = teleportDelay - crowdPlayDuration;
         if (remainingDelay > 0f)
-        {
             yield return new WaitForSeconds(remainingDelay);
-        }
 
         if (teleportTarget != null)
         {
-            playerTransform.position = teleportTarget.position;
+            if (cc != null) cc.enabled = false;
+            playerRoot.position = teleportTarget.position;
+            if (cc != null) cc.enabled = true;
         }
     }
 }

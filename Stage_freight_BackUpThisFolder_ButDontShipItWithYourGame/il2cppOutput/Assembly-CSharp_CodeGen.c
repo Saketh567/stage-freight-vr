@@ -1,0 +1,150 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void ClickerController_Awake_m91697BE519816882DACB8EB1C74BF0A29EC31235 (void);
+extern void ClickerController_OnEnable_mC59AD7392D1F8F82010F0904A746DCCC1B12E5EC (void);
+extern void ClickerController_OnDisable_m4D9E6DAEA3CF38A63114F9BB6F44F56FDA5FB126 (void);
+extern void ClickerController_Update_mA40C195F1DC62B0BEB2DB25DDB9791FE497EB909 (void);
+extern void ClickerController_OnGrab_mB0D78974ED98C4C25EFC350C0366C84FB3014327 (void);
+extern void ClickerController_OnRelease_m320ADF61F44DADB5A9574BF09E0DE476FCB4A2EB (void);
+extern void ClickerController__ctor_m2A7E89D271474A57FF09343F636ED1E438B56957 (void);
+extern void DoorOpenTrigger_Start_mA04855B5DE5A151D721C7E22904E71DA9CD2C8A7 (void);
+extern void DoorOpenTrigger_OnTriggerEnter_m789C933E6BE62E3F98A9813F478070575F551DD6 (void);
+extern void DoorOpenTrigger_Update_mC93C050772C4C8821E6576EF39023D3E5795714D (void);
+extern void DoorOpenTrigger_HandleDoorSequence_mB82EE013C963C29EEBBD9E06B22799CC6FC392A4 (void);
+extern void DoorOpenTrigger__ctor_m9C92234366044EFEE26C28BCAC9F617E6599185D (void);
+extern void U3CHandleDoorSequenceU3Ed__15__ctor_m7968EBCBC63CE7FC58036CD71769DA0322CF73F3 (void);
+extern void U3CHandleDoorSequenceU3Ed__15_System_IDisposable_Dispose_mE6A2EDB33611DA12B632475B5FEBA3CDBF9FFB2C (void);
+extern void U3CHandleDoorSequenceU3Ed__15_MoveNext_m6072906B3E07D05C592141BF09E83B5DA29CA2E4 (void);
+extern void U3CHandleDoorSequenceU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAE0ABF9B00BFD531C558B1C7768361B4D02D52A2 (void);
+extern void U3CHandleDoorSequenceU3Ed__15_System_Collections_IEnumerator_Reset_mCAF79A8C62743706E9C84437A5DE5B69AF2723B5 (void);
+extern void U3CHandleDoorSequenceU3Ed__15_System_Collections_IEnumerator_get_Current_m792870D5F3ABCE40232BAE44D69EC3EF6C953EB2 (void);
+extern void LimitedMicAdjuster_Update_m9A552F784DFB7F2AE2667FAF9CA1B0FCB5D1E79E (void);
+extern void LimitedMicAdjuster_EnableAdjustment_mD4B6E83B9099275EDCC342712C16B9E059D519A3 (void);
+extern void LimitedMicAdjuster_DisableAdjustment_m396293EDC56072F9EB6E2867B72800D5806C6BDE (void);
+extern void LimitedMicAdjuster__ctor_m1DFB4A0959D04A64A98E56453618FAD167C0DA97 (void);
+extern void PodiumTriggerZone_OnTriggerEnter_m5F4823258D48DFCB2296D4DAE959521D71388069 (void);
+extern void PodiumTriggerZone__ctor_m4CD2C5FF7EC50E6055B1C4C521F165DCF0EC50AA (void);
+extern void PresentationController_Start_m5CDE8F5D0687A5D7D13F6ED72E426D4E7850D314 (void);
+extern void PresentationController_StartPresentation_m378FFBDCFD7642F254ED63554C1B5AF9F62E0277 (void);
+extern void PresentationController__ctor_mC0113B036CF2F8F894A87FEBBD6B34A28A5E8876 (void);
+extern void SecondTriggerZone_OnTriggerEnter_m93EF1FEC99C44B5D300F0EB6095746C0988A02CE (void);
+extern void SecondTriggerZone__ctor_m03AFC6AC8A82BD6E288CB4114675D0A3437A73FA (void);
+extern void SlideShowController_Start_mA3F31B83D1E4A4507607710D76F928997ACE995E (void);
+extern void SlideShowController_NextSlide_m5C4D6B5354D6663F545E345444AD179D223D1B1C (void);
+extern void SlideShowController_PreviousSlide_mA9E8CAD4FC13C9E7AB122E016B7B26085B1BDD5E (void);
+extern void SlideShowController_ShowSlide_m1A515C6F298D8806E1B65C5366EF9ED113E08939 (void);
+extern void SlideShowController__ctor_mA28D115EED1758CC7814801730B43F5E041C6F6A (void);
+extern void StageArrivalTrigger_OnTriggerEnter_m6A53C092B9F738B053C34679D526BCA18BF8428B (void);
+extern void StageArrivalTrigger__ctor_m72AE67BBB8FF7457923F9E874A8470E6C1DCC761 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[38] = 
+{
+	ClickerController_Awake_m91697BE519816882DACB8EB1C74BF0A29EC31235,
+	ClickerController_OnEnable_mC59AD7392D1F8F82010F0904A746DCCC1B12E5EC,
+	ClickerController_OnDisable_m4D9E6DAEA3CF38A63114F9BB6F44F56FDA5FB126,
+	ClickerController_Update_mA40C195F1DC62B0BEB2DB25DDB9791FE497EB909,
+	ClickerController_OnGrab_mB0D78974ED98C4C25EFC350C0366C84FB3014327,
+	ClickerController_OnRelease_m320ADF61F44DADB5A9574BF09E0DE476FCB4A2EB,
+	ClickerController__ctor_m2A7E89D271474A57FF09343F636ED1E438B56957,
+	DoorOpenTrigger_Start_mA04855B5DE5A151D721C7E22904E71DA9CD2C8A7,
+	DoorOpenTrigger_OnTriggerEnter_m789C933E6BE62E3F98A9813F478070575F551DD6,
+	DoorOpenTrigger_Update_mC93C050772C4C8821E6576EF39023D3E5795714D,
+	DoorOpenTrigger_HandleDoorSequence_mB82EE013C963C29EEBBD9E06B22799CC6FC392A4,
+	DoorOpenTrigger__ctor_m9C92234366044EFEE26C28BCAC9F617E6599185D,
+	U3CHandleDoorSequenceU3Ed__15__ctor_m7968EBCBC63CE7FC58036CD71769DA0322CF73F3,
+	U3CHandleDoorSequenceU3Ed__15_System_IDisposable_Dispose_mE6A2EDB33611DA12B632475B5FEBA3CDBF9FFB2C,
+	U3CHandleDoorSequenceU3Ed__15_MoveNext_m6072906B3E07D05C592141BF09E83B5DA29CA2E4,
+	U3CHandleDoorSequenceU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAE0ABF9B00BFD531C558B1C7768361B4D02D52A2,
+	U3CHandleDoorSequenceU3Ed__15_System_Collections_IEnumerator_Reset_mCAF79A8C62743706E9C84437A5DE5B69AF2723B5,
+	U3CHandleDoorSequenceU3Ed__15_System_Collections_IEnumerator_get_Current_m792870D5F3ABCE40232BAE44D69EC3EF6C953EB2,
+	LimitedMicAdjuster_Update_m9A552F784DFB7F2AE2667FAF9CA1B0FCB5D1E79E,
+	LimitedMicAdjuster_EnableAdjustment_mD4B6E83B9099275EDCC342712C16B9E059D519A3,
+	LimitedMicAdjuster_DisableAdjustment_m396293EDC56072F9EB6E2867B72800D5806C6BDE,
+	LimitedMicAdjuster__ctor_m1DFB4A0959D04A64A98E56453618FAD167C0DA97,
+	PodiumTriggerZone_OnTriggerEnter_m5F4823258D48DFCB2296D4DAE959521D71388069,
+	PodiumTriggerZone__ctor_m4CD2C5FF7EC50E6055B1C4C521F165DCF0EC50AA,
+	PresentationController_Start_m5CDE8F5D0687A5D7D13F6ED72E426D4E7850D314,
+	PresentationController_StartPresentation_m378FFBDCFD7642F254ED63554C1B5AF9F62E0277,
+	PresentationController__ctor_mC0113B036CF2F8F894A87FEBBD6B34A28A5E8876,
+	SecondTriggerZone_OnTriggerEnter_m93EF1FEC99C44B5D300F0EB6095746C0988A02CE,
+	SecondTriggerZone__ctor_m03AFC6AC8A82BD6E288CB4114675D0A3437A73FA,
+	SlideShowController_Start_mA3F31B83D1E4A4507607710D76F928997ACE995E,
+	SlideShowController_NextSlide_m5C4D6B5354D6663F545E345444AD179D223D1B1C,
+	SlideShowController_PreviousSlide_mA9E8CAD4FC13C9E7AB122E016B7B26085B1BDD5E,
+	SlideShowController_ShowSlide_m1A515C6F298D8806E1B65C5366EF9ED113E08939,
+	SlideShowController__ctor_mA28D115EED1758CC7814801730B43F5E041C6F6A,
+	StageArrivalTrigger_OnTriggerEnter_m6A53C092B9F738B053C34679D526BCA18BF8428B,
+	StageArrivalTrigger__ctor_m72AE67BBB8FF7457923F9E874A8470E6C1DCC761,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[38] = 
+{
+	12649,
+	12649,
+	12649,
+	12649,
+	9796,
+	9796,
+	12649,
+	12649,
+	9796,
+	12649,
+	3824,
+	12649,
+	9734,
+	12649,
+	12292,
+	12462,
+	12649,
+	12462,
+	12649,
+	12649,
+	12649,
+	12649,
+	9796,
+	12649,
+	12649,
+	12649,
+	12649,
+	9796,
+	12649,
+	12649,
+	12649,
+	12649,
+	9734,
+	12649,
+	9796,
+	12649,
+	21556,
+	12649,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	38,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

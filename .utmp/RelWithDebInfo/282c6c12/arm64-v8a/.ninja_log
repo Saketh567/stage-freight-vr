@@ -1,0 +1,14 @@
+# ninja log v5
+20	2481	7959223676306328	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	13482c7a0b4153ba
+95	802	7959223659493219	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	c994385244480449
+804	1101	7959223662399322	C:/TWU/SEM 6/Immersive computing/Speaker/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/282c6c12/obj/arm64-v8a/libswappywrapper.so	97753cd0991b8771
+57	1928	7959223670690803	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	462605a08e987587
+30	1938	7959223670735983	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	e525133c3af78ab
+70	2286	7959223674348851	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	76880bccfadfc77a
+1	1973	7959223671109377	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	76db1aeddd4cb339
+10	2081	7959223672281172	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	494dd4584e43fb7d
+82	1980	7959223671229837	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	966604f7a5ba84ec
+42	2345	7959223674990517	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	1582d4ece725d517
+2482	2594	7959223677480285	C:/TWU/SEM 6/Immersive computing/Speaker/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/282c6c12/obj/arm64-v8a/libgame.so	f4fd3430f987ff0a
+2	545	7959284584597962	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	c994385244480449
+546	758	7959284586673856	C:/TWU/SEM 6/Immersive computing/Speaker/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/282c6c12/obj/arm64-v8a/libswappywrapper.so	97753cd0991b8771
